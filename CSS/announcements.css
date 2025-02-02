@@ -1,0 +1,39 @@
+.announcements {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.announcements h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.announcement-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.announcement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.announcement-title {
+    font-size: 24px;
+    color: #158fe7;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.announcement-description {
+    font-size: 16px;
+    color: #555;
+}

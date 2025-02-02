@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Images/IITGN Chess Club Logo.png">
+    <link rel="stylesheet" href="CSS/main.css">
+    <title>IITGN Chess Club</title>
+</head>
+<body>
+    <!-- Navbar Section Starts-->
+    <nav>
+        <div class="logo">
+            <img src="Images/IITGN Chess Club Logo.png" alt="IITGN Chess Club Logo">
+        </div>
+        <div class="nav-container">
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section Ends-->
+
+    <!-- Slideshow Section Starts -->
+    <div class="slideshow-container">
+
+
+        <div class="mySlides fade">
+            <img src="Images/1.jpg" style="width:100%">
+            <!-- <div class="text">Text1</div> -->
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="Images/2.jpg" style="width:100%">
+            <!-- <div class="text">Text2</div> -->
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="Images/3.jpeg" style="width:100%">
+            <!-- <div class="text">Text3</div> -->
+        </div>
+    
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    
+    <div class="dots-container" >
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- Slideshow Section Ends -->
+
+     <!-- Announcements Section Starts -->
+     <section class="announcements">
+        <div class="container">
+            <h2>Latest Announcements</h2>
+            <div class="announcement-card">
+                <h3 class="announcement-title"><a href="announcements.html#announcement-1">Kautilya Chess League 2025</a></h3>
+                <p class="announcement-description">Join us for the IITGN Kautilya Chess League 2025! Click to learn more...</p>
+            </div>
+            <!-- <div class="announcement-card">
+                <h3 class="announcement-title"><a href="announcements.html#announcement-2">Workshop on Advanced Strategies</a></h3>
+                <p class="announcement-description">Attend our upcoming workshop on advanced chess strategies. Click to learn more...</p>
+            </div>
+            <div class="announcement-card">
+                <h3 class="announcement-title"><a href="announcements.html#announcement-3">New Chess Resources Available</a></h3>
+                <p class="announcement-description">Check out the latest resources added to our library. Click to learn more...</p>
+            </div> -->
+        </div>
+    </section>
+    <!-- Announcements Section Ends -->
+
+    <!-- Footer Section Starts -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="tournaments.html">Tournaments</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Connect With Us</h3>
+                <ul class="footer-social">
+                    <li><a href="https://www.facebook.com/theknightplayers/"><img src="Images/facebook.svg" alt="Facebook" height="70"><br>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/theknightplayers_iitgn/"><img src="Images/instagram.svg" alt="Instagram" height="70">  <br>Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Information</h3>
+                <p>Hall 7, Central Arcade<br>IIT Gandhinagar<br>Palaj, Gujarat</p>
+                <p>Email: <a href="mailto:theknightplayers@gmail.com">theknightplayers@gmail.com</a></p>
+                <p>Phone: </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section Ends -->
+
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
