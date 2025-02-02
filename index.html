@@ -9,56 +9,62 @@
 </head>
 <body>
     <!-- Navbar Section Starts-->
-    <nav>
-        <div class="logo">
-            <img src="Images/IITGN Chess Club Logo.png" alt="IITGN Chess Club Logo">
-        </div>
-        <div class="nav-container">
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="events.html">Events</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+    <section class="navigation-bar">
+        <nav>
+            <div class="logo">
+                <img src="Images/IITGN Chess Club Logo.png" alt="IITGN Chess Club Logo">
             </div>
-            <div class="search-container">
-                <input type="text" placeholder="Search...">
-                <button type="button">Search</button>
+            <div class="nav-container">
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="announcement.html">Announcements</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search-container">
+                    <input type="text" placeholder="Search...">
+                    <button type="button">Search</button>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
+
     <!-- Navbar Section Ends-->
 
     <!-- Slideshow Section Starts -->
-    <div class="slideshow-container">
+    <section class="slideshow">
+        <div class="slideshow-container">
 
 
-        <div class="mySlides fade">
-            <img src="Images/1.jpg" style="width:100%">
-            <!-- <div class="text">Text1</div> -->
+            <div class="mySlides fade">
+                <img src="Images/1.jpg" style="width:100%">
+                <!-- <div class="text">Text1</div> -->
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="Images/2.jpg" style="width:100%">
+                <!-- <div class="text">Text2</div> -->
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="Images/3.jpeg" style="width:100%">
+                <!-- <div class="text">Text3</div> -->
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-    
-        <div class="mySlides fade">
-            <img src="Images/2.jpg" style="width:100%">
-            <!-- <div class="text">Text2</div> -->
+        
+        <div class="dots-container" >
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
-    
-        <div class="mySlides fade">
-            <img src="Images/3.jpeg" style="width:100%">
-            <!-- <div class="text">Text3</div> -->
-        </div>
-    
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    
-    <div class="dots-container" >
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+    </section>
     <!-- Slideshow Section Ends -->
 
      <!-- Announcements Section Starts -->
@@ -81,6 +87,40 @@
     </section>
     <!-- Announcements Section Ends -->
 
+    <!-- Gallery Section Starts -->
+    <section class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="Images/gallery1.jpg" alt="Gallery Image 1"></div>
+                <div class="gallery-item"><img src="Images/gallery2.jpg" alt="Gallery Image 2"></div>
+                <div class="gallery-item"><img src="Images/gallery3.jpg" alt="Gallery Image 3"></div>
+                <div class="gallery-item"><img src="Images/gallery4.jpg" alt="Gallery Image 4"></div>
+                <div class="gallery-item"><img src="Images/gallery5.jpg" alt="Gallery Image 5"></div>
+                <div class="gallery-item"><img src="Images/gallery6.jpg" alt="Gallery Image 6"></div>
+                <div class="gallery-item"><img src="Images/gallery7.jpg" alt="Gallery Image 7"></div>
+                <div class="gallery-item"><img src="Images/gallery8.jpg" alt="Gallery Image 8"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery Section Ends -->
+
+    <!-- Recent Activities Section Starts -->
+    <section class="recent-activities">
+        <div class="container">
+            <h2>Recent Activities</h2>
+            <div class="activity-card">
+                <h3 class="activity-title">Chess Championship 2024</h3>
+                <p class="activity-description">We recently held our annual chess championship with great success. Congratulations to all the winners!</p>
+            </div>
+            <div class="activity-card">
+                <h3 class="activity-title">Friendly Matches</h3>
+                <p class="activity-description">Our friendly matches have been a great way to bring together players of all skill levels for some fun and learning.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Recent Activities Section Ends -->
+
     <!-- Footer Section Starts -->
     <footer>
         <div class="footer-container">
@@ -88,16 +128,18 @@
                 <h3>Quick Links</h3>
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="announcement.html">Announcements</a></li>
+                    <li><a href="about.html">About</a></li>
                     <li><a href="events.html">Events</a></li>
-                    <li><a href="tournaments.html">Tournaments</a></li>
-                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-column">
                 <h3>Connect With Us</h3>
                 <ul class="footer-social">
-                    <li><a href="https://www.facebook.com/theknightplayers/"><img src="Images/facebook.svg" alt="Facebook" height="70"><br>Facebook</a></li>
-                    <li><a href="https://www.instagram.com/theknightplayers_iitgn/"><img src="Images/instagram.svg" alt="Instagram" height="70">  <br>Instagram</a></li>
+                    <li><a href="https://www.facebook.com/theknightplayers/"><img src="Images/facebook.svg" alt="Facebook" height="60"><br>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/theknightplayers_iitgn/"><img src="Images/instagram.svg" alt="Instagram" height="60">  <br>Instagram</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -112,5 +154,7 @@
 
 
     <script src="JS/main.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="JS/slideshow.js"></script>
 </body>
 </html>

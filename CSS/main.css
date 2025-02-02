@@ -2,7 +2,12 @@
 @import url('nav.css');
 @import url('footer.css');
 @import url('slideshow.css');
-@import url('announcements.css');
+@import url('announcement.css');
+@import url('gallery.css');
+@import url('contact.css');
+@import url('about.css');
+@import url('events.css');
+@import url('register.css');
 
 body {
     font-family: 'Poppins', sans-serif;
