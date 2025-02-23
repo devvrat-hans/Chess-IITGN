@@ -38,3 +38,8 @@ function initializeSlideshow() {
     window.plusSlides = plusSlides;
     window.currentSlide = currentSlide;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Initialize slideshow after DOM loads
+    initializeSlideshow();
+});

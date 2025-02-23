@@ -1,0 +1,12 @@
+Registration form
+1. Web app url  —> https://script.google.com/macros/s/AKfycbzG2wO7XUb9FvRwCCed9hBnA9E-PmX0-oB9Vn41D8IY7DGPBbJZ7Pfd-p8ZCgXUGg4ITw/exec
+2. Deployment ID —> AKfycbzG2wO7XUb9FvRwCCed9hBnA9E-PmX0-oB9Vn41D8IY7DGPBbJZ7Pfd-p8ZCgXUGg4ITw 
+
+Registration form
+1. Web app url  —> https://script.google.com/macros/s/AKfycbxk_bA_XmNNcdagLx5ULdVfrHcAEhQGyENoaHtZfnO5NnQoTwFqKoqkgazISMDQn6_TcQ/exec
+2. Deployment ID —> AKfycbxk_bA_XmNNcdagLx5ULdVfrHcAEhQGyENoaHtZfnO5NnQoTwFqKoqkgazISMDQn6_TcQ
+
+Contact form
+1. Web app url —> https://script.google.com/macros/s/AKfycbx98uUU0Lh3WsAnELlE13c2EzRP6yTuHSvcxCSwKtt2AF_adePqXIqCG6OzEs3ct5_-mA/exec
+2. Deployment ID —> AKfycbx98uUU0Lh3WsAnELlE13c2EzRP6yTuHSvcxCSwKtt2AF_adePqXIqCG6OzEs3ct5_-mA
+

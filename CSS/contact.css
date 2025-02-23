@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* Contact Us Section */
 .contact-us {
     padding: 60px 0;
     background-color: #f9f9f9;
+}
+
+.contact-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .contact-us h2 {
@@ -21,37 +29,41 @@
 }
 
 .contact-us form {
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact-us label {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     font-weight: 600;
 }
 
-.contact-us input, .contact-us textarea {
+.contact-us input, 
+.contact-us textarea {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .contact-us button {
+    width: 100%;
+    padding: 12px 20px;
     background-color: #158fe7;
     color: white;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     border-radius: 5px;
-    width: 100%;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
 }
 
 .contact-us button:hover {
@@ -62,5 +74,15 @@
     text-align: center;
     margin-top: 20px;
     font-size: 18px;
-    color: green;
+    color: blue;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us .container {
+        padding: 0 15px;
+    }
+    
+    .contact-us form {
+        padding: 20px;
+    }
 }

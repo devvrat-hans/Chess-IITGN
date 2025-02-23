@@ -46,6 +46,9 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;  /* Added */
+    font-weight: 500;  /* Added */
+    font-size: 14px;  /* Added */
 }
 
 .event-card button:hover {
