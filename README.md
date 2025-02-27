@@ -1,4 +1,4 @@
-# Chess-IITGN ♟️ (Still Under Development)
+# Chess-IITGN 
 
 Welcome to the official **Chess-IITGN** website repository! This project is designed for the chess community at the Indian Institute of Technology Gandhinagar (IITGN). It serves as a hub for all things related to chess events, registrations, announcements, and more. Whether you’re a casual player or a competitive chess enthusiast, this website brings all the information you need under one roof.
 
